@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgb(215, 160, 215);
+  height: 4em;
+  align-items: center;
+}
+
+.navleft img {
+height: 50px;
+background-color: pink;
+}
+
+.navright a {
+background-color: aqua;
+}
