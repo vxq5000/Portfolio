@@ -14,11 +14,12 @@ height: 50px;
 }
 
 .navright a {
-font-size: 25px;
+  font-size: 25px;
+  align-items: right;
 }
 
-.home{
-  margin-left: 400px;
+.link {
+  float:left;
 }
 
 .navright{
