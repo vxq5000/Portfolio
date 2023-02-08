@@ -53,11 +53,15 @@ height: 50px;
 }
 
 .skills {
-  flex: 1;
+  /* flex: 1; */
+  background-color: rgb(118, 193, 193);
+  width: 25em;
+  margin: 4em;
+  padding: 5px;
 }
 
 .experience {
-  flex:2;
+  /* flex:2; */
 }
 
 .skills h2 {
