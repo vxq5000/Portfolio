@@ -1,3 +1,14 @@
+body {
+  background-color: rgb(48, 79, 108);
+}
+
+.namehead {
+  color: rgb(215, 134, 211);
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+}
+
 .navbar {
   background-color: rgb(215, 160, 215);
   height: 4em;
@@ -52,19 +63,41 @@ height: 50px;
   display: flex;
 }
 
-.skills {
-  /* flex: 1; */
-  background-color: rgb(118, 193, 193);
-  width: 25em;
+.leftbar {
+  flex: .5;
+  border: solid rgb(119, 38, 104) 4px;
   margin: 4em;
-  padding: 5px;
+  padding: 5px; 
 }
 
-.experience {
-  /* flex:2; */
+.leftbar h3, p{
+  font-size: 20px;
 }
 
-.skills h2 {
+.leftbar h2 {
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 30px;
+}
+
+.resumeright {
+  flex:2;
+  border: solid rgb(119, 38, 104) 4px;
+  margin: 4em;
+  padding: 10px;
+}
+
+.resumeright h2 {
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.resumeright h3 {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.resumeright p, ul{
+  font-size: 25px;
+  margin: 2px;
+  padding-top: 5px;
 }
