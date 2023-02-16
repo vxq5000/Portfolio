@@ -14,12 +14,12 @@ body {
   height: 4em;
   align-items: center;
   display: flex;
-  border: solid 4px rgb(115,73,185);
+  border: solid 4px rgb(183, 243, 226);
   border-radius: 10px;
 }
 
 .navbar a {
-  color:rgb(115,73,185);
+  color:rgb(183, 243, 226);
 }
 
 .navleft img {
@@ -64,7 +64,7 @@ height: 50px;
 }
 
 .title {
-  color: rgb(150,73,182);
+  color: rgb(183, 243, 226);
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
@@ -73,26 +73,26 @@ height: 50px;
 
 .right{
   flex: 1;
-  color: rgb(244, 217, 255);
+  color: rgb(240, 222, 247);
   margin: 4em;
   height: 50em;
 }
 
 h2{ 
-  color:rgb(115,73,185);
+  color:rgb(244,217,255);
 }
 
 h3 {
-  color: rgb(150,73,182);
+  color: rgb(183, 243, 226);
 }
 .resumebody{
   display: flex;
 }
 
 .leftbar {
-  color: rgb(215,134,211);
+  color: rgb(247, 237, 250);
   flex: .5;
-  border: solid 4px rgb(115,73,185);
+  border: solid 4px rgb(183, 243, 226);
   border-radius: 10px;
   margin: 4em;
   padding: 5px; 
@@ -108,9 +108,9 @@ h3 {
 }
 
 .resumeright {
-  color: rgb(244,217,255);
+  color: rgb(234, 228, 236);
   flex:2;
-  border: solid 4px rgb(115,73,185);
+  border: solid 4px rgb(183, 243, 226);
   border-radius: 10px;
   margin: 4em;
   padding: 10px;
@@ -130,4 +130,33 @@ h3 {
   font-size: 25px;
   margin: 2px;
   padding-top: 5px;
+}
+
+a {
+  color: rgb(183, 243, 226);
+}
+
+.contact h1 {
+  font-size: 40px;
+  color: rgb(183, 243, 226);
+}
+.contact p{
+  font-size: 30px;
+  color: rgb(244,217,255);
+  padding: 10px;
+}
+
+.contactbody{
+  display: flex;
+}
+
+.contact{
+  flex: 1;
+  margin: 50px;
+}
+
+.croatia{
+  flex: .75;
+  margin: 50px;
+  height: 75px;
 }
