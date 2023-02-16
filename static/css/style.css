@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(48, 79, 108);
+  background-color: rgb(34, 61, 86);
 }
 
 .namehead {
@@ -7,15 +7,14 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 4em;
-  margin: 0;
 }
 
 .navbar {
   height: 4em;
   align-items: center;
   display: flex;
-  border: solid 4px rgb(183, 243, 226);
-  border-radius: 10px;
+  border: solid .2em rgb(183, 243, 226);
+  border-radius: .5em;
 }
 
 .navbar a {
@@ -23,7 +22,7 @@ body {
 }
 
 .navleft img {
-height: 50px;
+height: 3.5em;
 }
 
 .navleft {
@@ -31,7 +30,7 @@ height: 50px;
 }
 
 .navright a {
-  font-size: 25px;
+  font-size: 2em;
   align-items: right;
 }
 
@@ -50,24 +49,24 @@ height: 50px;
 
 .left{
   flex: 1;
-  margin-left: 10em;
+  margin-left: 3em;
 }
 
 .left img{
-  margin: 25px;
+  margin: 4em;
   margin-left: 0;
 }
 
 .left p , h2, h3{
   text-align: left;
-  margin: 3px;
+  margin: auto;
 }
 
 .title {
   color: rgb(183, 243, 226);
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-size: 2em;
 }
 
 
@@ -92,44 +91,46 @@ h3 {
 .leftbar {
   color: rgb(247, 237, 250);
   flex: .5;
-  border: solid 4px rgb(183, 243, 226);
-  border-radius: 10px;
+  border: solid .2em rgb(183, 243, 226);
+  border-radius: .5em;
   margin: 4em;
-  padding: 5px; 
+  padding: .3em; 
 }
 
 .leftbar h3, p{
-  font-size: 20px;
+  font-size: 1.5em;
+  margin-left: .5em;
+  margin-top: 1em;
 }
 
 .leftbar h2 {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 2.5em;
 }
 
 .resumeright {
   color: rgb(234, 228, 236);
   flex:2;
-  border: solid 4px rgb(183, 243, 226);
-  border-radius: 10px;
+  border: solid .2em rgb(183, 243, 226);
+  border-radius: .5em;
   margin: 4em;
-  padding: 10px;
+  padding: .5em;
 }
 
 .resumeright h2 {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 3em;
 }
 
 .resumeright h3 {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5em;
 }
 
 .resumeright p, ul{
-  font-size: 25px;
-  margin: 2px;
-  padding-top: 5px;
+  font-size: 1.7em;
+  margin: .5em;
+  padding-top: .3em;
 }
 
 a {
@@ -137,13 +138,14 @@ a {
 }
 
 .contact h1 {
-  font-size: 40px;
+  font-size: 2.5em;
   color: rgb(183, 243, 226);
 }
+
 .contact p{
-  font-size: 30px;
+  font-size: 2em;
   color: rgb(244,217,255);
-  padding: 10px;
+  padding-top: .3em;
 }
 
 .contactbody{
@@ -152,15 +154,27 @@ a {
 
 .contact{
   flex: 1;
-  margin: 50px;
+  margin: 2em;
 }
 
 .croatia{
   flex: .75;
-  margin: 50px;
-  height: 75px;
+  margin: 3em;
+  height: 4em;
 }
 
-.video1{
-  margin: 30px;
+.video1 , .video2{
+  margin: 1em;
+}
+
+.appname {
+  color: rgb(183, 243, 226);
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.description{
+  font-size: 1.5em;
+  color: rgb(247, 237, 250);
+  margin-left: 1em;
 }
