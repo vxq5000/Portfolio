@@ -1,24 +1,33 @@
 body {
-  background-color: rgb(34, 61, 86);
+  font-family: 'Lora', serif;
 }
 
+html { 
+  background: url(/static/img/bgimg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  padding: 3em;
+}
+
+.main{
+  background-color: white;
+  border-radius: 1em;
+}
 .namehead {
-  color:rgb(244,217,255);
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
   font-size: 4em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
   height: 4em;
   align-items: center;
   display: flex;
-  border: solid .2em rgb(183, 243, 226);
-  border-radius: .5em;
+  border-bottom: solid .1em #32618d;
+  margin-bottom: 1em;
 }
 
 .navbar a {
-  color:rgb(183, 243, 226);
+  color: #32618d;
+  text-decoration: none;
 }
 
 .navleft img {
@@ -63,7 +72,6 @@ height: 3.5em;
 }
 
 .title {
-  color: rgb(183, 243, 226);
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
@@ -72,26 +80,16 @@ height: 3.5em;
 
 .right{
   flex: 1;
-  color: rgb(240, 222, 247);
   margin: 4em;
   height: 50em;
 }
 
-h2{ 
-  color:rgb(244,217,255);
-}
-
-h3 {
-  color: rgb(183, 243, 226);
-}
 .resumebody{
   display: flex;
 }
 
 .leftbar {
-  color: rgb(247, 237, 250);
   flex: .5;
-  border: solid .2em rgb(183, 243, 226);
   border-radius: .5em;
   margin: 4em;
   padding: .3em; 
@@ -109,9 +107,7 @@ h3 {
 }
 
 .resumeright {
-  color: rgb(234, 228, 236);
   flex:2;
-  border: solid .2em rgb(183, 243, 226);
   border-radius: .5em;
   margin: 4em;
   padding: .5em;
@@ -133,18 +129,12 @@ h3 {
   padding-top: .3em;
 }
 
-a {
-  color: rgb(183, 243, 226);
-}
-
 .contact h1 {
   font-size: 2.5em;
-  color: rgb(183, 243, 226);
 }
 
 .contact p{
   font-size: 2em;
-  color: rgb(244,217,255);
   padding-top: .3em;
 }
 
@@ -168,13 +158,11 @@ a {
 }
 
 .appname {
-  color: rgb(183, 243, 226);
   font-size: 3em;
   text-decoration: underline;
 }
 
 .description{
   font-size: 1.5em;
-  color: rgb(247, 237, 250);
   margin-left: 1em;
 }
