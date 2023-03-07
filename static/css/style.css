@@ -9,7 +9,7 @@ html {
 }
 
 .main{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.759);
   border-radius: 1em;
 }
 .namehead {
@@ -86,6 +86,8 @@ height: 3.5em;
 
 .resumebody{
   display: flex;
+  background-color: rgba(255, 255, 255, 0.759);
+  border-radius: 1em;
 }
 
 .leftbar {
@@ -129,28 +131,10 @@ height: 3.5em;
   padding-top: .3em;
 }
 
-.contact h1 {
-  font-size: 2.5em;
-}
-
-.contact p{
-  font-size: 2em;
-  padding-top: .3em;
-}
-
-.contactbody{
-  display: flex;
-}
-
-.contact{
-  flex: 1;
-  margin: 2em;
-}
-
-.croatia{
-  flex: .75;
-  margin: 3em;
-  height: 4em;
+.projectbody {
+  margin: auto;
+  width: 50%;
+  padding: 1em;
 }
 
 .video1 , .video2{
@@ -166,3 +150,21 @@ height: 3.5em;
   font-size: 1.5em;
   margin-left: 1em;
 }
+
+.contact h1 {
+  font-size: 2.5em;
+}
+
+.contact p{
+  font-size: 2em;
+  padding-top: .3em;
+}
+
+.contactbody{
+  margin: auto;
+  width: 50%;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.559);
+  border-radius: 1em;
+}
+
